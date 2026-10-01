@@ -1,5 +1,5 @@
 // 3. find()
-// exercício 05:
+// exercício 5:
 
 const produtos = [
     { id: 1, nome: 'Notebook', preco: 3500, estoque: 5, ativo: true },

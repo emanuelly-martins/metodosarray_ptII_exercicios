@@ -1,5 +1,5 @@
 // 1. map()
-// exercício 02:
+// exercício 2:
 
 const produtos = [
     { id: 1, nome: 'Notebook', preco: 3500, estoque: 5, ativo: true },

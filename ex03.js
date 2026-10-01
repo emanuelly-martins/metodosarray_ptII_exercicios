@@ -1,5 +1,5 @@
 // 2. filter()
-// exercício 03:
+// exercício 3:
 
 const produtos = [
     { id: 1, nome: 'Notebook', preco: 3500, estoque: 5, ativo: true },
