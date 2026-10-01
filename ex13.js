@@ -11,4 +11,4 @@ const produtos = [
 const precoProdutos = produtos.some((p) => p.preco > 50);
 
 console.log(precoProdutos);
-console.log('\n');
+console.log("\n");
