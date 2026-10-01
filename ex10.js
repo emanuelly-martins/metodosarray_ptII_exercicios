@@ -1,5 +1,5 @@
 // 5. reduce()
-// exercício 9:
+// exercício 10:
 
 const produtos = [
     { id: 1, nome: 'Notebook', preco: 3500, estoque: 5, ativo: true },
@@ -8,9 +8,9 @@ const produtos = [
     { id: 4, nome: 'Monitor', preco: 1200, estoque: 3, ativo: true },
 ];
 
-const somaTotal = produtos.reduce((acumulador, valorAtual) => {
-    return acumulador + valorAtual.estoque;
+const redu = produtos.reduce((total, produto) => {
+    return total + produto.preco * produto.estoque;
 }, 0);
 
-console.log('Soma total:', somaTotal);
+console.log(redu);
 console.log('\n');
