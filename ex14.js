@@ -11,4 +11,4 @@ const produtos = [
 const estoqueProdutos = produtos.some((p) => p.estoque > 0);
 
 console.log(estoqueProdutos);
-console.log('\n');
+console.log("\n");
